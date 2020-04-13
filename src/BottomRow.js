@@ -1,7 +1,9 @@
-import React, { useState }from "react";
+import React, { useState }from "react"; // imported useState hook
 import "./App.css";
 
 const BottomRow = () => {
+
+  // added in new quarter for an event //
   const [currentQuarter, setCurrentQuarter] = useState(1);
 
   const addNewQuarter = event => {
